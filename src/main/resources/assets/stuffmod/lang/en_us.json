@@ -1,5 +1,9 @@
 {
   "item.stuffmod.eeee": "EEEE",
+  "item.stuffmod.eeee_ingot": "EEEE Ingot",
+  "block.stuffmod.eeee_block": "Block Of EEEE",
+  "block.stuffmod.deepslate_eeee_ore": "EEEE Deepslate Ore",
+  "block.stuffmod.eeee_ore": "EEEE Ore",
 
   "itemgroup.eeee": "EEEE"
 }

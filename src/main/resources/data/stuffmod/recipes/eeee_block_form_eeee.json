@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "stuffmod:eeee"
+    }
+  },
+  "result": {
+    "item": "stuffmod:eeee_block"
+  }
+}

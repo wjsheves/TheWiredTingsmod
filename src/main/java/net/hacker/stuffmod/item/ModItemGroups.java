@@ -2,6 +2,7 @@ package net.hacker.stuffmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.hacker.stuffmod.StuffMod;
+import net.hacker.stuffmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.registry.Registries;
@@ -15,7 +16,12 @@ public class ModItemGroups {
             new Identifier(StuffMod.MOD_ID, "eeee"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.eeee"))
                     .icon(() -> new ItemStack(ModItems.EEEE)).entries((displayContext, entries) -> {
+
                         entries.add(ModItems.EEEE);
+                        entries.add(ModItems.EEEE_INGOT);
+                        entries.add(ModBlocks.EEEE_BLOCK);
+                        entries.add(ModBlocks.EEEE_ORE);
+                        entries.add(ModBlocks.DEEPSLATE_EEEE_ORE);
 
 
                     }).build());

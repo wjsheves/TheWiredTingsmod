@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "stuffmod:item/eeee"
+    "layer0": "stuffmod:item/eeee_ingot"
   }
 }

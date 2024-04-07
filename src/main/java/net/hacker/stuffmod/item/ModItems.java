@@ -13,6 +13,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item EEEE = registerItem("eeee", new Item(new FabricItemSettings()));
+    public static final Item EEEE_INGOT = registerItem("eeee_ingot", new Item(new FabricItemSettings()));
 
     private static void additemstoingredentgroup(FabricItemGroupEntries entries) {
         entries.add(EEEE);

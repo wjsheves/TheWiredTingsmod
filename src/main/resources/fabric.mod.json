@@ -29,7 +29,7 @@
 		"stuffmod.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.15.9",
+		"fabricloader": ">=0.15.7",
 		"minecraft": "~1.20.4",
 		"java": ">=17",
 		"fabric-api": "*"

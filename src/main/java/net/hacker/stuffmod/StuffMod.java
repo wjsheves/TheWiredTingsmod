@@ -2,6 +2,7 @@ package net.hacker.stuffmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.hacker.stuffmod.block.ModBlocks;
 import net.hacker.stuffmod.item.ModItemGroups;
 import net.hacker.stuffmod.item.ModItems;
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class StuffMod implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroups.registerItemgroups();
+		ModBlocks.registerModBlocks();
 	}
 }
