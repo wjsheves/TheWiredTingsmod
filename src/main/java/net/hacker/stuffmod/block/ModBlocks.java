@@ -19,6 +19,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.DIAMOND_ORE)));
     public static final Block DEEPSLATE_EEEE_ORE = registerBlock("deepslate_eeee_ore",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+    public static final Block EEEE_INGOT_BLOCK = registerBlock("eeee_ingot_block",
+            new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

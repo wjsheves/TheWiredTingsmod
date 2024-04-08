@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.EEEE_BLOCK);
                         entries.add(ModBlocks.EEEE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_EEEE_ORE);
+                        entries.add(ModBlocks.EEEE_INGOT_BLOCK);
 
 
                     }).build());
