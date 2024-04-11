@@ -18,8 +18,12 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.EEEE)).entries((displayContext, entries) -> {
 
                         entries.add(ModItems.EEEE);
+                        entries.add(ModItems.EEEEAPPLE);
+                        entries.add(ModItems.METAL_DETECTOR);
                         entries.add(ModItems.EEEE_INGOT);
+                        entries.add(ModItems.EEEE_MADALIEAN);
                         entries.add(ModBlocks.EEEE_BLOCK);
+                        entries.add(ModBlocks.EEEE_MEDALIEAN_BLOCK);
                         entries.add(ModBlocks.EEEE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_EEEE_ORE);
                         entries.add(ModBlocks.EEEE_INGOT_BLOCK);
